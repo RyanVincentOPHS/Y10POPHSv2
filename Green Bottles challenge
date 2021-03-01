@@ -1,0 +1,17 @@
+num = 10
+bottles = 10 
+
+while bottles > 0:
+  print(bottles, "green bottles hanging on the wall")
+  print(bottles, "green bottles hanging on the wall")
+  print("if one green bottles accidentaly falls")
+  bottles=bottles-1
+  ans =int(input("how many green bottles hanging on the wall"))
+  if ans == bottles-1:
+    print(bottles, "green bottles hanging on the wall")
+    print(bottles, "green bottles hanging on the wall")
+    print("if one green bottle accidentaly falls")
+    
+  elif ans != bottles-1:
+    print("Thats not the song")
+    break
