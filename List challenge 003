@@ -1,7 +1,7 @@
 names = []
-names.append(input("Enter name1 >>>"))
-names.append(input("Enter name2 >>>"))
-names.append(input("Enter name3 >>>"))
+names.append(input("Enter name >>>"))
+names.append(input("Enter name >>>"))
+names.append(input("Enter name >>>"))
 
 names = input("Do you want to add another? Y or N? ")
 answer=""
